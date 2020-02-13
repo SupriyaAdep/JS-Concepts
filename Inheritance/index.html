@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Inheritance</title>
+</head>
+
+<body>
+  <h1>Inheritance</h1>
+  <h4>Objects and Functions</h4>
+  <ul>
+    <li>Every JS object has a prototype property which makes inheritance possible in JS</li>
+    <li>The prototype property of an object is where we put method and properties that we want other objects to
+      inherit</li>
+    <li>The constuctor's prototype property is not the prototype property of the constructor itself, it's the
+      prototype of all instances that are created through it</li>
+    <li>When a certain method or property is called, the search starts in the object itslef and if cannot be found
+      the search moves on to object prototype prototype. This continues until the method is found in the prototype
+      chain</li>
+  </ul>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
