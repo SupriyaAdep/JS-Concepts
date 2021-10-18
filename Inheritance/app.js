@@ -1,5 +1,5 @@
 /////////////////////////////
-// Lecture: Function constructor
+// Lecture: Function constructor //
 
 var john = {
   name: 'John',
